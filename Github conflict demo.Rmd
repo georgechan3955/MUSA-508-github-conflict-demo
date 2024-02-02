@@ -38,6 +38,7 @@ parks <- st_read("https://opendata.arcgis.com/datasets/d52445160ab14380a673e5849
 ```
 
 ## Preview data
+### I don't want to preview the data
 Let's preview our data. Using mapview::mapview(), we can quickly check what the data looks like. This is useful for when you are manipulating spatial data and need to check if things look right at each step.
 ```{r preview data}
 mapview(parks, col.regions = "chartreuse3", map.types = "CartoDB.DarkMatter")
